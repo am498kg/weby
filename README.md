@@ -1,2 +1,0 @@
-# weby
-Created with CodeSandbox

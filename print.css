@@ -1,0 +1,36 @@
+/* print.css */
+header, footer, .navbar, head, title {
+    display: none;
+}
+
+article {
+    column-width: 17em;
+    column-gap: 3em;
+}
+* {
+    background-image: none !important;
+}
+
+img, svg {
+    display: none !important;
+}
+
+/*img.print, svg.print {
+    display: block;
+    max-width: 100%;
+}
+
+img.dark {
+    filter: invert(100%) hue-rotate(180deg) brightness(120%) contrast(150%);
+}
+*/
+
+@media print {
+
+    .print {
+        display: block;
+    }
+
+}
+
+
