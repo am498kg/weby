@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
     <meta charset="UTF-8">
 
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
@@ -8,48 +8,26 @@
 
     <title>Blog</title>
 
-</head>
+
 <body class="background">
 
 
         <div class="article-container text-center">
+
+
             <ul class="navbar">
-                <li><a class="active" href="#home">Domov</a></li>
+                <li><a class="active">Domov</a></li>
                 <li><a href="article1.html">Bedminton </a></li>
                 <li><a href="article%202.html">StolnÃ½ tenis</a></li>
                 <li><a href="article%203.html">Tenis</a></li>
+                <li><a href="Referencies.html">Referencie</a></li>
                 <li style="float:right"><a class="logo">RaketovÃ© Å¡porty KoÅ¡ice</a></li>
             </ul>
 
-            <h1 class="header">RaketovÃ© Å¡porty</h1>
 
-         <main >
 
-        <p>TÃ¡to strÃ¡nka slÃºÅ¾i na predstavenie typov raketovÃ½ch hier, okrem krÃ¡tkej histÃ³rii mÃ´Å¾te tu nÃ¡jsÅ¥ aj pravidlÃ¡ hry,
-            zaujÃ­mavosti ale aj miesta kde si mÃ´Å¾te Ã­sÅ¥ zahraÅ¥ tieto Å¡porty v KoÅ¡iciach.</p>
 
-<!--        <ul class="paragraph">-->
-<!--            <div class="container">-->
-<!--                <img class="bed " src="badminton.jpg" width="312"   alt="bedmintnon">-->
-<!--                <div class="middle">-->
-<!--                    <div class="text">Bedminton</div>-->
-<!--                </div>-->
-<!--                <img class="ping" src="stolny%20tenis.jpg" width="312" alt="stolny tenis">-->
-<!--                <div class="middle">-->
-<!--                    <div class="text">StolnÃ½ Tenis</div>-->
-<!--                </div>-->
-<!--                <img class="bed" src="tenis%20uvod.jpg" width="312" alt="tenis">-->
-<!--                <div class="middle">-->
-<!--                    <div class="text">tenis</div>-->
-<!--                </div>-->
-
-<!--                <li><a href="article1.html">Bedminton</a></li>-->
-<!--                <li><a href="article%202.html">StolnÃ½ tenis</a></li>-->
-<!--                <li><a href="article%203.html">Tenis</a></li>-->
-<!--            </div>-->
-
-<!--        </ul>-->
-
+            <main id="router-view" >
 
             <div class="sport-button-container">
                 <div class="sport-btn tooltip">
@@ -73,6 +51,8 @@
             </div>
 
         </main>
+
+
             <div class="circle">
             <svg  width="100" height="100">
                 <circle cx="50" cy="50" r="40" stroke="darkgray" stroke-width="3" fill="lightgray" />
@@ -100,59 +80,14 @@
                     <circle cx="50" cy="50" r="10" stroke="darkgray" stroke-width="3" fill="lightgray"/>
                 </svg>
             </div>
+
+
+
         <footer>
             <div class="info">
         <p>Ahoj ja som Anna, vÃ­tam Å¥a na mojej prvej strÃ¡nke. NakoÄ¾ko sÃº Å¡porty mojou zÃ¡Ä¾ubou tak som sa rozhodla urobiÅ¥ strÃ¡nku o raketovÃ½ch Å¡portoch.
             Mojim najobÄ¾ÃºbenejÅ¡Ã­m je bedminton ktorÃ©mu sa venujem uÅ¾ dlhÅ¡Ã­ Äas.VerÃ­m Å¾e tÃ¡to strÃ¡nka bude pre teba uÅ¾itoÄnÃ¡ tak ako je pre mÅa.</p>
 
-
-            <h2 class="referencies">Referencie</h2>
-
-                <form id="opnFrm">
-                    <label for="fname" class="text-form"  >Meno:</label><br>
-
-                    <input class="padding-form" type="text" id="fname"  name="fname" size="30" placeholder="Meno"><br>
-
-                    <div class="email-form">
-                    <label for="femail" class="text-form" >Email:</label><br>
-                    <input class="padding-form" type="email" id="femail" size="30" placeholder="Email" ><br>
-                    </div>
-
-                    <label for="fcontent" class="text-form"  >Text:</label><br>
-                    <textarea class="padding-form" name="content"   spellcheck="true" rows="5" id="fcontent" cols="40" placeholder="Text" required></textarea><br>
-
-                    <h3 class="forquestions">HrÃ¡vaÅ¡ nejakÃ½ Å¡port?</h3>
-
-
-                    <input type="radio" id="yes" name="button" value="yes" checked>
-                    <label for="yes">Ãno</label><br>
-                    <input type="radio" id="no" name="button" value="no">
-                    <label for="no">Nie</label><br>
-                    <br>
-
-                    <div class="form">
-                    <h3 class="forquestions">KtorÃ½ z tÃ½chto Å¡portov hrÃ¡vaÅ¡?</h3>
-                    <input type="checkbox" id="bed" name="sport" value="bed">
-                    <label for="bed">Bedminton</label><br>
-                    <input type="checkbox" id="ping" name="sport" value="ping">
-                    <label for="ping">StolÃ½ tenis</label><br>
-                    <input type="checkbox" id="tenis" name="sport" value="tenis">
-                    <label for="tenis">Tenis</label>
-                    </div>
-                    <br>
-                    <br>
-
-                    <div class="row" >
-                    <button type="submit" class="btn ">PoÅ¡li</button>
-                    <button type="reset" class="btn">Resetuj</button>
-                    </div>
-                </form>
-
-
-                <article  id="artOpinions" >
-                    <h2 class="referencies">VaÅ¡e referencie</h2>
-                    <div id="opinionsContainer" class="border-for-referencies" ></div>
-                </article>
 
 
 
@@ -172,18 +107,8 @@
         </footer>
         </div>
 
-        <script id="mTmplOneOpinion" type="text/template">
-            <section>
-                <h3>{{meno}}<br><i>{{createdDate}}</i></h3>
-                <p>{{comment}}</p>
-            </section>
-        </script>
 
 
-
-        <script src="mustache.min.js"></script>
-
-        <script src="Form.js"></script>
 
 </body>
 </html>

@@ -115,6 +115,18 @@
 
 }
 
+.info2{
+    font-family: Calibri,serif;
+    font-size: 0.9em;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-right: 700px;
+    position: relative;
+    bottom: auto;
+
+}
+
 .infoother{
     font-family: Calibri,serif;
     font-size: 1em;
@@ -383,8 +395,8 @@ th {
 
 .row{
     position: relative;
-    align-items: center;
-    justify-content: center;
+    /*align-items: center;*/
+    /*justify-content: center;*/
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
@@ -412,7 +424,7 @@ th {
     justify-content: center;
     position: relative;
     left: 100px;
-    width: 150%;
+    width: 58%;
 
 }
 
